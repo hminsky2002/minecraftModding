@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "harrysawesomemod:item/snus_puck"
+    "layer0": "harryssnusmod:item/pouch"
   }
 }

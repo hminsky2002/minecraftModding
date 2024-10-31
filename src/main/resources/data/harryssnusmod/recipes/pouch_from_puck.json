@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "harryssnusmod:snus_puck"
+    }
+  ],
+  "result": {
+    "item": "harryssnusmod:pouch",
+    "count": 9
+  }
+}
