@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    },
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    },
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    },
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    },
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    },
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    },
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    },
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    },
+    {
+      "item": "harryssnusmod:cinnamon_pouch"
+    }
+  ],
+  "result": {
+    "item": "harryssnusmod:cinnamon_snus_puck",
+    "count": 1
+  }
+}

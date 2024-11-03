@@ -24,7 +24,23 @@ public class ItemInit {
 
             ));
 
+    public static final RegistryObject<Item> CINNAMON_POUCH_ITEM = ITEMS.register("cinnamon_pouch",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(0)
+                            .saturationMod(20f)
+                            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1200, 2), 1f)
+                            .build())
+
+            ));
+
     public static final RegistryObject<Item> SNUS_PUCK_ITEM = ITEMS.register("snus_puck",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+            ));
+
+    public static final RegistryObject<Item> CINNAMON_SNUS_PUCK_ITEM = ITEMS.register("cinnamon_snus_puck",
             () -> new Item(new Item.Properties()
                     .stacksTo(64)
             ));

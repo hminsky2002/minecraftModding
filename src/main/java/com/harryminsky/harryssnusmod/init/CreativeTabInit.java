@@ -27,6 +27,8 @@ public class CreativeTabInit {
                     .displayItems((displayParams, output) ->{
                             output.accept(ItemInit.SNUS_PUCK_ITEM.get());
                             output.accept(ItemInit.POUCH_ITEM.get());
+                            output.accept(ItemInit.CINNAMON_POUCH_ITEM.get());
+                            output.accept(ItemInit.CINNAMON_SNUS_PUCK_ITEM.get());
                             })
                     .withSearchBar()
                     .build()
@@ -36,9 +38,11 @@ public class CreativeTabInit {
     public static void buildContents(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ItemInit.POUCH_ITEM);
+            event.accept(ItemInit.CINNAMON_POUCH_ITEM);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ItemInit.SNUS_PUCK_ITEM);
+            event.accept(ItemInit.CINNAMON_POUCH_ITEM);
         }
 
     }
